@@ -1,0 +1,156 @@
+/* ===== MAIN NAVBAR STYLES ===== */
+.navbar.desktop-nav,
+.navbar.standard-nav,
+.navbar.main-nav,
+.navbar {
+	background-color: #0050a6 !important;
+	padding: 2rem 3rem !important;
+	color: #ffffff !important;
+}
+
+/* ===== NAVBAR BRAND & LOGO ===== */
+.navbar .navbar-brand,
+.navbar .navbar-brand .brand-title,
+.navbar .brand-title,
+.navbar .navbar-brand-container {
+	color: #ffffff !important;
+}
+
+.navbar-brand img,
+.navbar .navbar-brand img,
+.navbar-brand .desktop-logo,
+.navbar-brand img.navbar-logo {
+	max-height: 55px !important;
+	height: 55px !important;
+	width: auto !important;
+}
+
+/* ===== BRAND SUBTITLE / MINISTRY NAME ===== */
+.navbar .navbar-brand .brand-label,
+.navbar .navbar-brand .brand-label *,
+.navbar .brand-label,
+.navbar .brand-label * {
+	color: #ffffff !important;
+}
+
+.navbar .navbar-brand .brand-label .small,
+.navbar .brand-label .small,
+.navbar .navbar-brand .text-muted,
+.navbar .navbar-brand small,
+.navbar .navbar-brand-subtext,
+.navbar .navbar-brand-subtitle,
+.navbar .brand-subtitle,
+.navbar [data-label="subtitle"] {
+	color: #ffffff !important;
+	opacity: 1 !important;
+}
+
+/* ===== NAVIGATION LINKS ===== */
+.navbar .nav-link,
+.navbar .navbar-nav .nav-item .nav-link,
+.navbar .nav > li > a,
+.navbar a.nav-link,
+.navbar .navbar-nav > li > a {
+	color: #ffffff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .nav > li > a:hover,
+.navbar a.nav-link:hover {
+	color: #cccccc !important;
+}
+
+/* ===== USER/DROPDOWN MENU ===== */
+.navbar .user-button .dropdown-toggle,
+.navbar .dropdown-toggle,
+.navbar .dropdown-toggle i,
+.navbar .user-image-frame,
+.navbar .user-image {
+	color: #ffffff !important;
+}
+
+/* ===== BREADCRUMB STYLES ===== */
+/* Breadcrumb container */
+.navbar .breadcrumb-container,
+.navbar .breadcrumb-area,
+.navbar .frappe-breadcrumbs {
+	color: #ffffff !important;
+}
+
+/* All breadcrumb links */
+.navbar .breadcrumb-item a,
+.navbar .breadcrumb a,
+.navbar .breadcrumb-container a,
+.navbar .breadcrumb-item > a,
+.navbar .breadcrumb > li > a {
+	color: #ffffff !important;
+	opacity: 1 !important;
+}
+
+/* Active breadcrumb text */
+.navbar .breadcrumb-item.active,
+.navbar .breadcrumb-item span,
+.navbar .breadcrumb .active,
+.navbar .breadcrumb-item.active > span {
+	color: #ffffff !important;
+	opacity: 1 !important;
+}
+
+/* Breadcrumb separators (>) */
+.navbar .breadcrumb-item + .breadcrumb-item::before,
+.navbar .breadcrumb-separator,
+.navbar .breadcrumb > li + li::before,
+.navbar .breadcrumb .breadcrumb-separator {
+	color: #ffffff !important;
+	opacity: 0.8 !important;
+}
+
+/* ===== ICONS IN NAVBAR ===== */
+.navbar i,
+.navbar .icon,
+.navbar .octicon,
+.navbar .fa,
+.navbar [class^="icon-"],
+.navbar [class*=" icon-"] {
+	color: #ffffff !important;
+}
+
+/* 1. The Main Sidebar Container */
+.lms-layout .lms-sidebar,
+aside.lms-sidebar {
+    background-color: #0050a6 !important;
+}
+
+/* 2. Sidebar Link Text & Icons (Home, Search, Courses, etc.) */
+.lms-sidebar .nav-item .nav-link,
+.lms-sidebar .nav-item .nav-link-label,
+.lms-sidebar .feather-icon {
+    color: #ffffff !important;
+    stroke: #ffffff !important; /* Icons usually use stroke */
+}
+
+/* 3. The "Learning Center" & "Administrator" Header text */
+.lms-sidebar .sidebar-header .title,
+.lms-sidebar .sidebar-header .subtitle,
+.lms-sidebar .user-info .name,
+.lms-sidebar .user-info .role {
+    color: #ffffff !important;
+}
+
+/* 4. Active Item (e.g., the white bubble behind "Courses") */
+.lms-sidebar .nav-item .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.2) !important; /* Semi-transparent white */
+    color: #ffffff !important;
+}
+
+/* 5. The "Getting Started" Card at the bottom */
+.lms-sidebar .setup-wizard-card {
+    background-color: #003d7a !important; /* Darker blue for contrast */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.lms-sidebar .setup-wizard-card * {
+    color: #ffffff !important;
+}
+

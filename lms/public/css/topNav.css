@@ -1,0 +1,92 @@
+.navbar {
+	background-color: #0050a6 !important;
+	color: #ffffff !important;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-nav .nav-item .nav-link,
+.navbar .user-button .dropdown-toggle {
+	color: #ffffff !important;
+}
+
+.navbar-brand img {
+	max-height: 55px !important;
+	width: auto !important;
+}
+
+.navbar .nav-link:hover {
+	color: #cccccc !important;
+}
+/* Login button */
+.btn-primary,
+.btn.btn-primary,
+button[type="submit"],
+.btn-login {
+	background-color: #0050a6 !important;
+	background: #0050a6 !important;
+}
+
+/* 1. Hide the external 'Login to Frappe' and 'Login to Learning Center' text */
+.for-login .login-content h4,
+.for-login .page-card-head,
+.for-login .navbar,
+.for-login .app-logo {
+	display: none !important;
+}
+
+/* 2. Style the Login Card to contain everything */
+.for-login .page-card {
+	margin: 80px auto !important;
+	padding: 3rem 2rem !important;
+	border-radius: 12px !important;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 3. Add the Logo inside the card (top) */
+.for-login .page-card::before {
+	content: "";
+	display: block;
+	width: 50%;
+	height: 50px; /* Adjust based on logo size */
+	background-image: url("../images/login-logo.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 0 auto 2rem auto;
+}
+
+/* 4. Fix the duplicate 'Login' words inside the card */
+/* If you see two 'Login' labels, hide the redundant one */
+.for-login .login-heading {
+	font-size: 1.5rem !important;
+	font-weight: 700 !important;
+	color: #111827 !important;
+	margin-bottom: 2rem !important;
+	text-align: center;
+}
+
+/* 5. Match the Login button to your Blue Theme */
+.for-login .btn-login,
+.for-login .btn-primary {
+	background-color: #0050a6 !important;
+	border-color: #0050a6 !important;
+	font-weight: 600 !important;
+}
+
+/* Remove redundant headers outside and inside */
+.for-login .login-content h4,
+.for-login .page-card-head,
+.for-login .navbar,
+.for-login .app-logo {
+	display: none !important;
+}
+
+/* Style the primary 'Login' title */
+.for-login .login-heading {
+	font-size: 1.1rem !important; /* Slightly smaller, more professional */
+	font-weight: 600 !important;
+	text-align: center;
+	margin-bottom: 1.5rem !important;
+	color: #374151 !important;
+}
