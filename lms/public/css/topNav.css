@@ -1,7 +1,7 @@
-.navbar {
+/* .navbar {
 	background-color: #0050a6 !important;
 	color: #ffffff !important;
-}
+} */
 
 .navbar .navbar-brand,
 .navbar .nav-link,
@@ -23,8 +23,8 @@
 .btn.btn-primary,
 button[type="submit"],
 .btn-login {
-	background-color: #0050a6 !important;
-	background: #0050a6 !important;
+	background-color: #96e2e8 !important;
+	background: #96e2e8 !important;
 }
 
 /* 1. Hide the external 'Login to Frappe' and 'Login to Learning Center' text */
@@ -47,9 +47,9 @@ button[type="submit"],
 .for-login .page-card::before {
 	content: "";
 	display: block;
-	width: 50%;
-	height: 50px; /* Adjust based on logo size */
-	background-image: url("../images/login-logo.svg");
+	width: 80%;
+	height: 70px; /* Adjust based on logo size */
+	background-image: url("../images/afya.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -61,7 +61,7 @@ button[type="submit"],
 .for-login .login-heading {
 	font-size: 1.5rem !important;
 	font-weight: 700 !important;
-	color: #111827 !important;
+	color: #1a526e !important;
 	margin-bottom: 2rem !important;
 	text-align: center;
 }
@@ -69,8 +69,8 @@ button[type="submit"],
 /* 5. Match the Login button to your Blue Theme */
 .for-login .btn-login,
 .for-login .btn-primary {
-	background-color: #0050a6 !important;
-	border-color: #0050a6 !important;
+	background-color: #1a526e !important;
+	border-color: #1a526e !important;
 	font-weight: 600 !important;
 }
 
@@ -88,5 +88,5 @@ button[type="submit"],
 	font-weight: 600 !important;
 	text-align: center;
 	margin-bottom: 1.5rem !important;
-	color: #374151 !important;
+	color: #1a526e !important;
 }
