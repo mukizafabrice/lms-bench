@@ -69,8 +69,8 @@ button[type="submit"],
 /* 5. Match the Login button to your Blue Theme */
 .for-login .btn-login,
 .for-login .btn-primary {
-	background-color: #1a526e !important;
-	border-color: #1a526e !important;
+	background-color: #195c7b !important;
+	border-color: #195c7b !important;
 	font-weight: 600 !important;
 }
 
