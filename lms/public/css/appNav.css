@@ -28,14 +28,6 @@
 	color: #ffffff !important;
 }
 
-/* Target by the text content specifically */
-span.sidebar-item-label[data-label="Public"],
-.sidebar-section-header[data-label="Public"],
-.standard-sidebar-item[data-label="Public"],
-.sidebar-group-title[data-label="Public"] {
-	display: none !important;
-}
-
 /* Fix the Active item text to be pure white */
 .desk-sidebar .standard-sidebar-item.selected .sidebar-item-label,
 .desk-sidebar .standard-sidebar-item.selected .icon,
@@ -49,4 +41,16 @@ span.sidebar-item-label[data-label="Public"],
 .desk-sidebar .standard-sidebar-item[data-label="LMS"] {
 	background-color: #37c3e7 !important;
 	color: #ffffff !important;
+}
+
+.page-head .page-head-content .sidebar-toggle-placeholder {
+	color: #37c3e7 !important;
+}
+
+.page-head .page-head-content .ellipsis {
+	color: #37c3e7;
+}
+
+.layout-main .list-sidebar .nested-container .standard-sidebar-label {
+	display: none !important;
 }
